@@ -9,6 +9,8 @@ import Ecommerse from "../../Assets/download4.png";
 import matrimonial from "../../Assets/Projects/img.jpg";
 import suicide from "../../Assets/25726540_7127986.jpg";
 import mobile_app from "../../Assets/Projects/MobiPay.png";
+import etrucking from "../../Assets/etrucking_img.jpeg";
+import practicepanel from "../../Assets/practice_panel.png";
 
 function Projects() {
   return (
@@ -22,6 +24,33 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card" style={{ marginTop: 3 }}>
+            <ProjectCard
+              imgPath={etrucking}
+              title="eTrucking System - TMS Platform"
+              description="Built a full-scale Transportation Management System (TMS) using React.js, TypeScript, and Vite with optimized routing, lazy loading, and responsive UI. Integrated REST APIs for drivers, dispatch, accounting, and dashboard modules with real-time Socket.IO communication. Automated invoice and driver data extraction via OCR, cutting manual entry by 60%."
+              demoLink="https://etruckingsystem.com/auth"
+            />
+          </Col>
+
+          <Col md={4} className="project-card" style={{ marginTop: 3 }}>
+            <ProjectCard
+              imgPath={practicepanel}
+              title="Practice Panel Platform"
+              description="Developed an AI-enabled interview preparation platform using React.js, Material-UI, Tailwind CSS, and OpenAI/Gemini APIs. Implemented modular practice flows for coding, aptitude, and HR interviews with adaptive question routing. Built a real-time performance dashboard with analytics on candidate skills."
+              demoLink="https://login.practicepanel.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={coucal}
+              // demoLink={true}
+              title="Coucal AI"
+              description="
+              I have made the UI of this product and it's website in my previous company. Coucal is a revolutionary AI-powered recruitment tool that automates resume screening and skills assessment, promoting fairness, consistency, and diversity while saving time and resources for organizations."
+              demoLink="https://www.coucal.ai/"
+            />
+          </Col>
           <Col md={4} className="project-card" style={{ marginTop: 3 }}>
             <ProjectCard
               imgPath={matrimonial}
@@ -56,16 +85,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={coucal}
-              // demoLink={true}
-              title="Coucal AI"
-              description="
-              I have made the UI of this product and it's website in my previous company. Coucal is a revolutionary AI-powered recruitment tool that automates resume screening and skills assessment, promoting fairness, consistency, and diversity while saving time and resources for organizations."
-              demoLink="https://www.coucal.ai/"
-            />
-          </Col>
+         
 
           <Col md={4} className="project-card">
             <ProjectCard

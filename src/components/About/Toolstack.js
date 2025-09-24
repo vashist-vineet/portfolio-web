@@ -17,22 +17,40 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFigma />
+        <div className="tech-icon-wrapper">
+          <SiFigma />
+          <span className="tech-tooltip">Figma</span>
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiInvision />
+        <div className="tech-icon-wrapper">
+          <SiInvision />
+          <span className="tech-tooltip">InVision</span>
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMiro />
+        <div className="tech-icon-wrapper">
+          <SiMiro />
+          <span className="tech-tooltip">Miro</span>
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGithub />
-      </Col>
-            <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <div className="tech-icon-wrapper">
+          <SiGithub />
+          <span className="tech-tooltip">GitHub</span>
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSketch  />
+        <div className="tech-icon-wrapper">
+          <SiPostman />
+          <span className="tech-tooltip">Postman</span>
+        </div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <div className="tech-icon-wrapper">
+          <SiSketch />
+          <span className="tech-tooltip">Sketch</span>
+        </div>
       </Col>
     </Row>
   );

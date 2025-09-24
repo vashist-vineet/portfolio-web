@@ -19,29 +19,43 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hello, My name is Vineet Vashist. I am a UI developer and UI/UX
-              Designer. I am having 1.5 years of experience crafting
-              user-friendly web and app designs that are both visually stunning
+              Hello, My name is Vineet Vashist. I am a Frontend Developer currently working at BigWings LLC. I have experience crafting
+              user-friendly web app and with AI Integration that are both visually stunning
               and functionally seamless.
               {/* I'm highly proficient in the core
               technologies like HTML, CSS, JavaScript, React Native, ReactJs and
               a strong understanding of UI/UX design principles and tools like
               Figma, InVision, Canva, Sketch, Wireframing, User Research */}
               <br />
-              <br />I am proficient in the core technologies like
+              <br />I am proficient in frontend technologies like
               <i>
                 <b className="purple">
                   {" "}
-                  HTML, CSS, JavaScript, React Native, ReactJs{" "}
+                  JavaScript, TypeScript, React.js, React Native, HTML5, CSS3{" "}
                 </b>
               </i>
               <br />
               <br />
-              I'm having a strong understanding of UI/UX design principles and
-              tools like &nbsp;
+              I work with modern UI frameworks and tools including &nbsp;
               <i>
                 <b className="purple">
-                  Figma, InVision, Canva, Sketch, Wireframing, User Research
+                  Tailwind CSS, Material-UI, Chakra UI, Bootstrap, AntDesign, Vite, Webpack
+                </b>
+              </i>
+              <br />
+              <br />
+              I also have expertise in AI/ML technologies like &nbsp;
+              <i>
+                <b className="purple">
+                  OpenAI, Gemini, LangChain, OCR, Speech Recognition, TTS
+                </b>
+              </i>
+              <br />
+              <br />
+              Along with strong UI/UX design skills using &nbsp;
+              <i>
+                <b className="purple">
+                  Figma, InVision, Sketch, Wireframing, User Research
                 </b>
               </i>
               <br />

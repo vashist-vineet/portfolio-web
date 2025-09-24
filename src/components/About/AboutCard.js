@@ -12,9 +12,8 @@ function AboutCard() {
             <span className="purple">Vineet Vashist from </span>
             from <span className="purple"> Punjab, India.</span>
             <br />I am currently employed as a{" "}
-            <span className="purple">Frontend Developer</span> and{" "}
-            <span className="purple">UI/UX Designer</span> at Udyat
-            Technologies.
+            <span className="purple">Frontend Developer</span> at
+            <span className="purple"> BigWings LLC</span>.
             <br />I have completed <span className="purple">B.Tech</span> in
             Computer Science from <span className="purple">Chitkara
             University</span>
