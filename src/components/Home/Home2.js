@@ -19,52 +19,60 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Hello, My name is Vineet Vashist. I am a Frontend Developer currently working at BigWings LLC. I have experience crafting
-              user-friendly web app and with AI Integration that are both visually stunning
-              and functionally seamless.
-              {/* I'm highly proficient in the core
-              technologies like HTML, CSS, JavaScript, React Native, ReactJs and
-              a strong understanding of UI/UX design principles and tools like
-              Figma, InVision, Canva, Sketch, Wireframing, User Research */}
+              I'm <b className="purple">Vineet Vashist</b> — a <b className="purple">Product-focused Frontend Engineer</b> with a strong foundation in building scalable systems, currently transitioning into <b className="purple">Product / Technical PM roles</b>.
+              
               <br />
-              <br />I am proficient in frontend technologies like
+              <br />
+              At <b className="purple">BigWings LLC</b>, I work closely with cross-functional teams on a U.S.-market B2B SaaS platform — contributing to product decisions, defining user workflows, and delivering high-impact features.
+              
+              <br />
+              <br />
+              Recently worked on a Transportation Management System (TMS), where I contributed to product definition, prioritised key workflows, and helped ship OCR-based load automation that reduced manual effort by{" "}
+              <b className="purple">60%</b>.
+              
+              <br />
+              <br />
+              My experience spans{" "}
               <i>
                 <b className="purple">
-                  {" "}
-                  JavaScript, TypeScript, React.js, React Native, HTML5, CSS3{" "}
+                  product requirement definition, user flows, feature prioritisation (RICE/MoSCoW), and Agile execution
                 </b>
               </i>
+              , with hands-on involvement in solving real business problems.
+              
               <br />
               <br />
-              I work with modern UI frameworks and tools including &nbsp;
+              I work with{" "}
               <i>
                 <b className="purple">
-                  Tailwind CSS, Material-UI, Chakra UI, Bootstrap, AntDesign, Vite, Webpack
+                  Figma, Jira, Notion, Miro, and Confluence
                 </b>
               </i>
-              <br />
-              <br />
-              I also have expertise in AI/ML technologies like &nbsp;
+              , and leverage{" "}
               <i>
                 <b className="purple">
-                  OpenAI, Gemini, LangChain, OCR, Speech Recognition, TTS
+                  Google Analytics and user insights
                 </b>
               </i>
+              &nbsp;to validate product decisions.
+              
               <br />
               <br />
-              Along with strong UI/UX design skills using &nbsp;
+              My technical background in{" "}
               <i>
                 <b className="purple">
-                  Figma, InVision, Sketch, Wireframing, User Research
+                  React.js, React Native, TypeScript, and AI integrations (OpenAI/Gemini, OCR)
                 </b>
               </i>
+              &nbsp;helps me collaborate effectively with engineering teams and ship faster.
+              
               <br />
               <br />
             </p>
           </Col>
-          <Col md={4} className="img-fluid" >
+          <Col md={4} className="img-fluid">
             <Tilt>
-              <img style={{marginTop:20}} src={myImg} className="img-fluid circular-img" alt="avatar"  />
+              <img style={{ marginTop: 20 }} src={myImg} className="img-fluid circular-img" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

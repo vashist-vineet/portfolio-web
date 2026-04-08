@@ -11,25 +11,64 @@ import {
   SiBootstrap,
   SiTailwindcss,
   SiTypescript,
-  SiChakraui,
   SiVite,
   SiWebpack,
   SiVitest,
-  SiAntdesign,
   SiOpenai,
-  SiGooglegemini,
-  SiDeepgram,
+  SiMysql,
 } from "react-icons/si";
-import { 
-  HiSpeakerWave,
-  HiMicrophone,
-} from "react-icons/hi2";
 import { TbBrandReactNative } from "react-icons/tb";
 import gemini from "../../Assets/google-gemini-icon.png";
+
 function Techstack() {
   return (
     <>
-      {/* Frontend Technologies */}
+      {/* AI/ML Technologies */}
+      <h3
+        style={{
+          color: "#c770f0",
+          textAlign: "center",
+          marginBottom: "30px",
+          marginTop: "20px",
+        }}
+      >
+        AI/ML Technologies
+      </h3>
+      <Row style={{ justifyContent: "center", paddingBottom: "30px" }}>
+        <Col xs={4} md={2} className="tech-icons">
+          <div className="tech-icon-wrapper">
+            <SiOpenai />
+            <span className="tech-tooltip">OpenAI</span>
+          </div>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <div className="tech-icon-wrapper">
+            <img src={gemini} width={80} height={80} alt="Gemini" />
+            <span className="tech-tooltip">Gemini</span>
+          </div>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <div className="tech-icon-wrapper">
+            <div style={{ fontSize: "60px", color: "#c770f0" }}>🔗</div>
+            <span className="tech-tooltip">LangChain</span>
+          </div>
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+          <div className="tech-icon-wrapper">
+            <div style={{ fontSize: "60px", color: "#c770f0" }}>📄</div>
+            <span className="tech-tooltip">OCR</span>
+          </div>
+        </Col>
+      </Row>
+
+      {/* Engineering & Data */}
+      <h3
+        style={{ color: "#c770f0", textAlign: "center", marginBottom: "20px" }}
+      >
+        Engineering &amp; Data
+      </h3>
+
+      {/* Core Technologies */}
       <Row style={{ justifyContent: "center", paddingBottom: "30px" }}>
         <Col xs={4} md={2} className="tech-icons">
           <div className="tech-icon-wrapper">
@@ -68,8 +107,8 @@ function Techstack() {
           </div>
         </Col>
       </Row>
-      
-      {/* UI Libraries & Frameworks */}
+
+      {/* UI & Frontend Systems */}
       <Row style={{ justifyContent: "center", paddingBottom: "30px" }}>
         <Col xs={4} md={2} className="tech-icons">
           <div className="tech-icon-wrapper">
@@ -80,13 +119,7 @@ function Techstack() {
         <Col xs={4} md={2} className="tech-icons">
           <div className="tech-icon-wrapper">
             <SiMui />
-            <span className="tech-tooltip">Material-UI</span>
-          </div>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <div className="tech-icon-wrapper">
-            <SiChakraui />
-            <span className="tech-tooltip">Chakra UI</span>
+            <span className="tech-tooltip">Material UI</span>
           </div>
         </Col>
         <Col xs={4} md={2} className="tech-icons">
@@ -95,16 +128,15 @@ function Techstack() {
             <span className="tech-tooltip">Bootstrap</span>
           </div>
         </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <div className="tech-icon-wrapper">
-            <SiAntdesign />
-            <span className="tech-tooltip">Ant Design</span>
-          </div>
-        </Col>
       </Row>
 
-      {/* Build Tools & Testing */}
       <Row style={{ justifyContent: "center", paddingBottom: "30px" }}>
+        <Col xs={4} md={2} className="tech-icons">
+          <div className="tech-icon-wrapper">
+            <SiMysql />
+            <span className="tech-tooltip">SQL</span>
+          </div>
+        </Col>
         <Col xs={4} md={2} className="tech-icons">
           <div className="tech-icon-wrapper">
             <SiVite />
@@ -120,50 +152,7 @@ function Techstack() {
         <Col xs={4} md={2} className="tech-icons">
           <div className="tech-icon-wrapper">
             <SiVitest />
-            <span className="tech-tooltip">Vitest</span>
-          </div>
-        </Col>
-      </Row>
-
-      {/* AI/ML Technologies */}
-      <h3 style={{ color: "#c770f0", textAlign: "center", marginBottom: "30px", marginTop: "20px" }}>
-        AI/ML Technologies
-      </h3>
-      <Row style={{ justifyContent: "center", paddingBottom: "30px" }}>
-        <Col xs={4} md={2} className="tech-icons">
-          <div className="tech-icon-wrapper">
-            <SiOpenai />
-            <span className="tech-tooltip">OpenAI</span>
-          </div>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <div className="tech-icon-wrapper">
-            <img src={gemini} width={80} height={80} alt="Gemini" style={{ fontSize: "10px", color: "#c770f0" }} />
-            <span className="tech-tooltip">Gemini</span>
-          </div>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <div className="tech-icon-wrapper">
-            <div style={{ fontSize: "60px", color: "#c770f0" }}>🔗</div>
-            <span className="tech-tooltip">LangChain</span>
-          </div>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <div className="tech-icon-wrapper">
-            <div style={{ fontSize: "60px", color: "#c770f0" }}>📄</div>
-            <span className="tech-tooltip">OCR</span>
-          </div>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <div className="tech-icon-wrapper">
-            <div style={{ fontSize: "60px", color: "#c770f0" }}>🎤</div>
-            <span className="tech-tooltip">Speech Recognition</span>
-          </div>
-        </Col>
-        <Col xs={4} md={2} className="tech-icons">
-          <div className="tech-icon-wrapper">
-            <div style={{ fontSize: "60px", color: "#c770f0" }}>🔊</div>
-            <span className="tech-tooltip">Text-to-Speech</span>
+            <span className="tech-tooltip">Testing</span>
           </div>
         </Col>
       </Row>

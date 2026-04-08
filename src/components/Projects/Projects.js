@@ -3,112 +3,115 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import coucal from "../../Assets/Projects/124669.jpg";
-import emotion from "../../Assets/Projects/emotion.png";
 import GolfStudy from "../../Assets/Projects/Golf_CaseStudy.png";
 import Ecommerse from "../../Assets/download4.png";
 import matrimonial from "../../Assets/Projects/img.jpg";
-import suicide from "../../Assets/25726540_7127986.jpg";
 import mobile_app from "../../Assets/Projects/MobiPay.png";
 import etrucking from "../../Assets/etrucking_img.jpeg";
-import practicepanel from "../../Assets/practice_panel.png";
+import suicide from "../../Assets/25726540_7127986.jpg";
 
 function Projects() {
   return (
     <Container fluid className="project-section">
       <Particle />
       <Container>
+
+        {/* ── SECTION HEADER ── */}
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Product <strong className="purple">Case Studies</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          End-to-end ownership — from problem discovery and competitor research to shipped features and measurable impact.
         </p>
+
+        {/* ── PM CASE STUDIES ── */}
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
           <Col md={4} className="project-card" style={{ marginTop: 3 }}>
             <ProjectCard
               imgPath={etrucking}
-              title="eTrucking System - TMS Platform"
-              description="Built a full-scale Transportation Management System (TMS) using React.js, TypeScript, and Vite with optimized routing, lazy loading, and responsive UI. Integrated REST APIs for drivers, dispatch, accounting, and dashboard modules with real-time Socket.IO communication. Automated invoice and driver data extraction via OCR, cutting manual entry by 60%."
-              demoLink="https://etruckingsystem.com/auth"
+              title="TechTruckers — All-in-One TMS"
+              description="Contributed to product definition for a U.S.-market B2B SaaS TMS. Conducted competitor analysis (Samsara, Motive, Turvo), identified SMB automation gaps, and helped prioritise high-impact workflows. Shipped OCR-based load automation reducing manual effort by 60% and improving operational efficiency across dispatch, invoicing, and tracking."
+              isCaseStudy={true}
+              demoLink="https://www.notion.so/TechTruckers-335612ffcc9d80a28d0bdcaf8390d536"
+              demoLinkLabel="View Case Study →"
             />
           </Col>
 
           <Col md={4} className="project-card" style={{ marginTop: 3 }}>
             <ProjectCard
-              imgPath={practicepanel}
-              title="Practice Panel Platform"
-              description="Developed an AI-enabled interview preparation platform using React.js, Material-UI, Tailwind CSS, and OpenAI/Gemini APIs. Implemented modular practice flows for coding, aptitude, and HR interviews with adaptive question routing. Built a real-time performance dashboard with analytics on candidate skills."
-              demoLink="https://login.practicepanel.com/"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={coucal}
-              // demoLink={true}
-              title="Coucal AI"
-              description="
-              I have made the UI of this product and it's website in my previous company. Coucal is a revolutionary AI-powered recruitment tool that automates resume screening and skills assessment, promoting fairness, consistency, and diversity while saving time and resources for organizations."
-              demoLink="https://www.coucal.ai/"
+              title="RcruitPanel — AI Recruitment Platform"
+              description="Worked on product development and feature definition for an AI-powered recruitment platform. Benchmarked leading ATS tools, contributed to workflow design for resume screening and evaluation, and supported iterative improvements from 70% to 95% screening accuracy. Reduced hiring time by 60% and improved diversity metrics by 40%."
+              isCaseStudy={true}
+              demoLink="https://www.notion.so/RcruitPanel-333612ffcc9d80469256fd2960ca2a4a"
+              demoLinkLabel="View Case Study →"
             />
           </Col>
+
+        </Row>
+
+        {/* ── SECTION DIVIDER ── */}
+        <h1 className="project-heading" style={{ marginTop: "40px" }}>
+          Design &amp; <strong className="purple">Dev Projects</strong>
+        </h1>
+        <p style={{ color: "white" }}>
+          Full-cycle delivery — from UX design to production-ready frontend systems.
+        </p>
+
+        {/* ── OTHER PROJECTS ── */}
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
           <Col md={4} className="project-card" style={{ marginTop: 3 }}>
             <ProjectCard
               imgPath={matrimonial}
               isBehance={true}
-              title="Matrimonial Website"
-              description="Designed and Developed a Matrimonial Website, in which I have used technologies like ReactJs and MUI library for UI development. I have used Figma for Designing the website"
+              title="Matrimonial Platform — UI/UX Design"
+              description="Delivered end-to-end product experience — from requirement gathering to UX design and frontend implementation. Focused on user journey optimisation, accessibility, and clean interaction flows."
               behanceLink="https://www.behance.net/gallery/200605725/Matrimonial-Website-UIUX-Design"
-              // demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card" style={{ marginTop: -10 }}>
+          <Col md={4} className="project-card" style={{ marginTop: 3 }}>
             <ProjectCard
               imgPath={mobile_app}
               isBehance={true}
-              title="Mobile App Design"
-              description="Design a mobile wallet app to make a transaction and see the stats of your total spending. You can also view your transaction history and total income/outcome "
+              title="MobiPay — Mobile Wallet App"
+              description="Designed a mobile wallet experience with transaction tracking and financial insights. Focused on usability, information hierarchy, and intuitive navigation."
               behanceLink="https://www.behance.net/gallery/178597449/MobiPay"
-              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
-          <Col md={4} className="project-card" style={{ marginTop: -10 }}>
+          <Col md={4} className="project-card" style={{ marginTop: 3 }}>
             <ProjectCard
               imgPath={GolfStudy}
               isBehance={true}
-              title="SwingPro Case Study"
-              description="This golf app UI/UX design focuses on intuitive score tracking, course navigation, and social features, enhancing the overall golfing experience.
-"
+              title="SwingPro — UX Case Study"
+              description="End-to-end UX case study including research, wireframing, and UI design. Built intuitive flows for score tracking, course navigation, and social engagement."
               behanceLink="https://www.behance.net/gallery/178991775/SwingPro-UXUI-Case-Study"
-              // demoLink="https://editor.soumya-jit.tech/"s
             />
           </Col>
 
-         
-
-          <Col md={4} className="project-card">
+          <Col md={4} className="project-card" style={{ marginTop: 3 }}>
             <ProjectCard
-              imgPath={suicide}
-              title="Website Redesigned"
-              description="I've redesigned and developed the company website using HTML, CSS, and JavaScript. This project involved enhancing the user experience, improving the visual design, and ensuring responsive functionality across all devices, resulting in a more engaging and effective site."
-              demoLink="https://udyattech.com/"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-          <Col md={4} className="project-card" style={{ marginTop: -12 }} >
-          <ProjectCard
-              
               imgPath={Ecommerse}
               isBehance={true}
-              title="Ecommerce Website Design"
-              description="Experience a vibrant ecommerce platform offering a diverse selection of clothes and shoes. Explore an array of colors with our intuitive sliding feature, ensuring you find the perfect style to suit your taste. Enjoy seamless browsing, exclusive deals, and delightful shopping experience.  
-"
+              title="Ecommerce — Fashion Platform"
+              description="Designed a conversion-focused ecommerce experience with interactive product discovery and streamlined user flows."
               behanceLink="https://www.behance.net/gallery/202152009/Ecommerce-Web-Design"
-              // demoLink="https://editor.soumya-jit.tech/"s
             />
           </Col>
-         
+
+          <Col md={4} className="project-card" style={{ marginTop: 3 }}>
+            <ProjectCard
+              imgPath={suicide}
+              title="Udyat Tech — Website Redesign"
+              description="Redesigned corporate website improving UX, responsiveness, and visual hierarchy, resulting in a more engaging user experience."
+              demoLink="https://udyattech.com/"
+              demoLinkLabel="View Live Site →"
+            />
+          </Col>
+
         </Row>
       </Container>
     </Container>
