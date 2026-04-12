@@ -35,6 +35,7 @@ function Projects() {
               isCaseStudy={true}
               demoLink="https://www.notion.so/TechTruckers-335612ffcc9d80a28d0bdcaf8390d536"
               demoLinkLabel="View Case Study →"
+              prdLink="https://www.notion.so/PRD-Tech-Truckers-340612ffcc9d80a1a185eac7ab3f7531"
             />
           </Col>
 
@@ -46,6 +47,7 @@ function Projects() {
               isCaseStudy={true}
               demoLink="https://www.notion.so/RcruitPanel-333612ffcc9d80469256fd2960ca2a4a"
               demoLinkLabel="View Case Study →"
+              prdLink="https://www.notion.so/PRD-RcruitPanel-340612ffcc9d80e1a93af5de8042361d"
             />
           </Col>
 

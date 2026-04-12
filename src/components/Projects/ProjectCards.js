@@ -4,6 +4,7 @@ import Button from "react-bootstrap/Button";
 import { CgWebsite } from "react-icons/cg";
 import { BsGithub } from "react-icons/bs";
 import { FaBehance } from "react-icons/fa";
+import { HiOutlineDocumentText } from "react-icons/hi";
 
 function ProjectCards(props) {
   return (
@@ -34,6 +35,17 @@ function ProjectCards(props) {
           >
             <CgWebsite /> &nbsp;
             {props.demoLinkLabel ?? "Demo"}
+          </Button>
+        )}
+
+        {props.prdLink && (
+          <Button
+            variant="outline-light"
+            href={props.prdLink}
+            target="_blank"
+            style={{ marginLeft: "10px", marginTop: "8px" }}
+          >
+            <HiOutlineDocumentText /> &nbsp; View PRD →
           </Button>
         )}
       </Card.Body>
