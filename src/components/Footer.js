@@ -2,8 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaBehance, FaLinkedinIn } from "react-icons/fa";
 
@@ -23,7 +21,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/1910991147"
+                href="https://github.com/vashist-vineet"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
